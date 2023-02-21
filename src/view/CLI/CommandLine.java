@@ -83,7 +83,7 @@ public class CommandLine implements Serializable, Runnable {
      */
     private void viewResName() {
         System.out.println("Enter your EMAIL - ID");
-        Map<String, Reservation> viewResID = new HashMap<>();
+        Map<String, Reservation> viewResID;
         final Scanner scanner = new Scanner(System.in);
         String line;
         line = scanner.nextLine();
