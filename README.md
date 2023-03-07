@@ -88,6 +88,14 @@ The Room Booking System provides the following user functionalities:
 <li> Note : The command-line and GUI interfaces run together with threading implemented.
 </ol>
 
+--- 
+
+### Technologies Used
+
+* Java 17 
+* JUnit 5
+* Git
+
 ---
 
 ### JUNIT Tests : 
