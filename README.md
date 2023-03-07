@@ -1,6 +1,12 @@
 Room Booking System
 
-This project was completed as part of the CS5001 Object-Oriented Modelling, Design and Programming course. The Room Booking System is a Java-based application that enables users to book and manage room reservations in various buildings. The system includes functionalities for adding, deleting, and viewing users, buildings, rooms, and reservations.
+This is a Java program for a room-booking system that includes both a text-based user interface and a graphical user interface using Java Swing. The program was built using the Model-View-Controller (MVC) or the Model-Delegate (MD) design pattern.
+
+To ensure the program functions correctly, JUnit was used to test the model and all tests are included in the submission.
+
+The program allows users to add, delete, and view users, buildings, and rooms. Users can also book and delete room reservations and view their reservations by either booking ID or email ID. Additionally, users can view all booked rooms and save/load data to/from a specified file.
+
+This project was developed as part of the CS5001 Object-Oriented Modelling, Design and Programming course practical.
 
 Functionalities Implemented
 
