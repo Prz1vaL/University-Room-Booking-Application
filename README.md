@@ -1,72 +1,64 @@
-# CS5001 Object-Oriented Modelling, Design and Programming
-# Practical 4 – Room Booking System
+Room Booking System
 
-Author : 220031985
+This project was completed as part of the CS5001 Object-Oriented Modelling, Design and Programming course. The Room Booking System is a Java-based application that enables users to book and manage room reservations in various buildings. The system includes functionalities for adding, deleting, and viewing users, buildings, rooms, and reservations.
 
-Functionalities Implemented (Both GUI & CLI): 
-                1.Add/Delete/View Users.
-                2.Add/Delete/View Buildings.
-                3.Add/Delete/View Rooms.
-                4.Book or Delete a Room Reservation.
-                5.View Your Reservations by Booking ID.
-                6.View All Booked Rooms.
-                7.View Your Reservations by Name(EMAIL ID).
-                8.Save the Data.
-                9.Load the Data.
-                0.Exit.
+Functionalities Implemented
 
-Files in the application:
+The following functionalities have been implemented for both GUI and CLI interfaces:
 
-Main File : RBSystem.java
+Add/Delete/View Users.
+Add/Delete/View Buildings.
+Add/Delete/View Rooms.
+Book or Delete a Room Reservation.
+View Your Reservations by Booking ID.
+View All Booked Rooms.
+View Your Reservations by Name (EMAIL ID).
+Save the Data.
+Load the Data.
+Exit.
+Application Files
 
-Service Layer: 
+The Room Booking System consists of the following files:
+
+RBSystem.java (Main File)
 User Service
 Building Service
 Room Service
 Reservation Service
+User Model
+Building Model
+Room Model
+Reservation Model
+BookingResource Controller
+CLI View
+GUI View
+Additional Features
 
-Model Layer :
-User 
-Building
-Room 
-Reservation
+The following features have been implemented, which are not part of the system requirements:
 
-Controller : 
-BookingResource
+BookingID for creating a unique booking reference by a user to store multiple instances of reservations.
+User email_ID is an essential part of the system to implement Role-Based Control as Admin privileges are open. This allows for creating a log that logs the creation/updation/deletion of any object can be accounted for.
+Viewing all objects for Users, Buildings, Rooms, and Reservations.
+User Functionalities
 
-View Layer :
-CLI
-GUI
+The Room Booking System provides the following user functionalities:
 
+Add and remove people, rooms, buildings, and bookings.
+Choose a time and view all rooms available at that time.
+Choose a timeslot (start and end times) and view all rooms available for that whole period.
+View the schedule for a given room, including bookings and free periods.
+View all bookings made by a given person.
+Save to a specified filename.
+Load from a specified file.
+Compiling and Running
 
+To compile and run the Room Booking System, please follow these steps:
 
-Features implemented that are not part of the system:
-• Implementing BookingID for making unqiue booking reference by a user to store multiple instances of reservations done by the user.
-• User (email_ID) is an essential part of the system as the concept to implement Role-Based Control as Admin priviligies are open and therefore to create    a log that logs the creation/updation/deletion of any object can be accounted for.
-• Viewing all objects  for User,buildings,rooms and reservations.
+Extract the *.zip file.
+Navigate to the src folder of the program.
+Compile the .java files in the terminal.
+Run the RBSystem.java file.
+The command-line and GUI interfaces run together with threading implemented.
+JUnit Tests
 
-USER Functionalities :
-
-• Add and remove people, rooms, buildings and bookings; (Addressed)
-• Choose a time, and see all rooms that are available at that time; (Addressed by viewing all bookings at once Option 6.View All Booked Rooms)
-• Choose a timeslot (start and end times) and see all rooms that are available for that whole period;(Addressed by viewing all bookings at once by 6.View All Booked Rooms)
-• View the schedule for a given room, including bookings and free periods;(Addressed by viewing all bookings at once by 6.View All Booked Rooms)
-• View all bookings made by a given person; (Addressed) 
-• Save to a specified filename; (Addressed)
-• Load from a specified file. (Addressed)
-
-
-
-
-Compiling and running: 
-1) Extract the *.zip file.
-2) Navigate to the src folder of the Program.
-3) Compile the .java files in terminal
-4) Run the RBSystem.java
-5) CommandLine and GUI runs together(Threading Implemented).
-
-JUnit Tests: 
-JUnit Test built for the application run on JUnit5 and were created using IntelliJ IDE.
-
-Total No.of JUnit Test Files : 10
-Total JUnit Test Written : 38
+JUnit tests for the Room Booking System were created using the JUnit5 framework and IntelliJ IDE. The system consists of 10 test files with a total of 38 JUnit tests written.
